@@ -6,30 +6,34 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden"
+      className="flex items-center pt-24 pb-8 overflow-hidden bg-primary lg:bg-cover lg:bg-center xl:pb-10 xl:h-fit"
     >
-      <div className="container mx-auto h-full">
-        <div className="flex items-center h-full pt-8">
-          <div className="flex-1 flex flex-col items-center lg:items-start font-light">
-            <p className="pt-4 pb-2 md:pt-2 md:pb-2 max-w-[480px] text-xl text-left  text-gray-300">
-              As a Front End software engineer, I am known for approaching
-              problems in a unique way.
-            </p>
-            <p className="pt-4 pb-2 md:pt-2 md:pb-2 max-w-[480px] text-xl text-left  text-gray-300">
-              Instead of adding complexity, I strive to simplify and streamline
-              solutions.
-            </p>
-            <p className="pt-4 pb-2 md:pt-2 md:pb-2 max-w-[480px] text-xl text-left  text-gray-300">
-              My finished work projects are both visually appealing and
-              user-friendly, making them easy for anyone to use.
-            </p>
-            <p className="pt-4 pb-2 md:pt-2 md:pb-2 max-w-[480px] text-xl text-left  text-gray-300">
-              My name is Slava, and I am driven by the desire to challenge the
-              status quo and solve complex problems.
-            </p>
+      <div className="container h-full mx-auto">
+        <div className="flex flex-col items-center h-full xl:flex-row">
+          {/* Text and button grouped */}
+          <div className="flex flex-col items-center order-2 xl:order-1 xl:w-3/4">
+            <div className="flex flex-col items-center py-5 space-y-2 text-lg font-light md:py-8 md:w-3/4 lg:items-start lg:text-xl xl:order-1">
+              <p className="text-left text-gray-300">
+                As a Front End software engineer, I am known for approaching
+                problems in a unique way.
+              </p>
+              <p className="text-left text-gray-300">
+                Instead of adding complexity, I strive to simplify and
+                streamline solutions.
+              </p>
+              <p className="text-left text-gray-300">
+                My projects are both visually appealing and user-friendly,
+                making them easy for anyone to use.
+              </p>
+              <p className="text-left text-gray-300 ">
+                <span className="font-semibold">My name is Slava</span>, and I
+                am driven by the desire to challenge the status quo and solve
+                complex problems.
+              </p>
+            </div>
 
             <Link
-              className="btn text-center btn-md bg-accent hover:cursor-pointer hover:bg-secondary-hover mt-4 md:btn-lg transition-all"
+              className="btn w-full md:w-3/4 text-center text-sm xl:text-lg h-[48px] bg-accent hover:cursor-pointer hover:bg-secondary-hover   transition-all order-3"
               to="contact"
               activeClass="active"
               spy={true}
@@ -39,13 +43,14 @@ const Hero = () => {
               Want to hire me for your next project?
             </Link>
           </div>
-          <div className="hidden lg:flex justify-end items-end ">
+
+          <div className="flex order-1 xl:order-2 xl:self-end">
             <Image
               alt="myself"
-              className="object-cover h-full w-[600px] md:mx-auto lg:mx-0 rounded-2xl"
+              className="object-cover h-full w-[400px] md:w-[600px] md:mx-auto lg:mx-0 rounded-2xl"
               width="600"
               height="400"
-              src="https://res.cloudinary.com/slavavisuals/image/upload/v1674611216/profile/heroimage2.jpg"
+              src="https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1674611216/profile/heroimage2.jpg"
             />
           </div>
         </div>

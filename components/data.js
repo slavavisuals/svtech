@@ -127,48 +127,66 @@ export const social = [
 
 export const brands = [
   {
-    img: cg,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673930959/companies/cg.png',
+    width: 422,
+    height: 36,
     alt: 'Canada Goose',
     href: 'https://www.canadagoose.com',
   },
   {
-    img: costco,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1675918133/companies/costco-wholesale.png',
     alt: 'Costco',
     href: 'https://www.costco.ca',
+    width: 182,
+    height: 50,
   },
   {
-    img: wave,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1675918206/companies/wave.png',
+    width: 381,
+    height: 50,
     alt: 'WirelessWave',
     href: 'https://www.wirelesswave.ca',
   },
   {
-    img: tbooth,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1675918273/companies/tbooth.png',
+    width: 313,
+    height: 50,
     alt: 'Tbooth Wireless',
     href: 'https://www.tboothwireless.ca',
   },
   {
-    img: wirelessetc,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1675918333/companies/wireless-etc.png',
+    width: 423,
+    height: 50,
     alt: 'Wireless etc',
     href: 'https://www.mobility.costco.ca',
   },
   {
-    img: intelex,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136355/companies/intelex_m6pjhi.png',
     alt: 'Intelex',
+    width: 273,
+    height: 50,
     href: 'https://www.intelex.com',
   },
   {
-    img: synergy,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136485/companies/synergy_gvjsso.png',
     alt: 'Synergy Networx',
+    width: 273,
+    height: 50,
     href: 'https://www.synergynetworx.com',
   },
   {
-    img: indexexchange,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136636/companies/index-exchange_fnvtjn.png',
     alt: 'Index exchange',
+    width: 112,
+    height: 50,
     href: 'https://www.indexexchange.com',
   },
   {
-    img: osc,
+    img: 'https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136485/companies/osc-new_bff4kw.png',
     alt: 'Ontario Security Commision',
+    width: 158,
+    height: 50,
     href: 'https://osc.ca',
   },
 ];
@@ -264,7 +282,7 @@ export const experienceData = [
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
-      <img class="ml-3 w-max h-auto md:w-[204px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/v1673133665/companies/glentel-logo_rub3d2.png' alt="glentel logo" />
+      <img class="ml-3 w-max h-auto md:w-[204px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673133665/companies/glentel-logo_rub3d2.png' alt="glentel logo" />
     </div>
     <div class="pl-4 md:pl-6 text-xl text-left">December 2020 - Present</div>
     <ul class="pl-4 md:pl-6 list-outside text-left font-light">
@@ -292,7 +310,7 @@ export const experienceData = [
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
-      <img class="w-max md:w-[292px] md:h-[50px]"src='https://res.cloudinary.com/slavavisuals/image/upload/v1673135744/companies/cg_ldj8po.png' alt="glentel logo" />
+      <img class="w-max md:w-[292px] md:h-[50px]"src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673135744/companies/cg_ldj8po.png' alt="glentel logo" />
     </div>
     <div class="pl-4 md:pl-6  text-xl text-left">April 2017 - November 2020</div>
     <ul class="pl-4 md:pl-6 list-outside text-left font-light">
@@ -322,7 +340,7 @@ export const experienceData = [
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
-      <img class="w-max h-auto md:w-[273px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/v1673136355/companies/intelex_m6pjhi.png' alt="glentel logo" />
+      <img class="w-max h-auto md:w-[273px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136355/companies/intelex_m6pjhi.png' alt="glentel logo" />
     </div>
     <div class="pl-4 md:pl-6  text-xl text-left">April 2015 - February 2017</div>
     <ul class="pl-4 md:pl-6 list-outside text-left font-light">
@@ -351,7 +369,7 @@ export const experienceData = [
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
-      <img class="w-max h-auto md:w-[273px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/v1673136485/companies/synergy_gvjsso.png' alt="glentel logo" />
+      <img class="w-max h-auto md:w-[273px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136485/companies/synergy_gvjsso.png' alt="glentel logo" />
     </div>
     <div class="text-xl text-left">March 2014 - March 2015</div>
     <p class="text-left font-light
@@ -377,7 +395,7 @@ export const experienceData = [
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
-      <img class="w-max h-auto md:w-[112px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/v1673136636/companies/index-exchange_fnvtjn.png' alt="glentel logo" />
+      <img class="w-max h-auto md:w-[112px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136636/companies/index-exchange_fnvtjn.png' alt="glentel logo" />
     </div>
     <div class="text-xl text-left">Jan 2013 - July 2013</div>
     <p class="text-left font-light
@@ -401,7 +419,7 @@ export const experienceData = [
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
-      <img class="w-max h-auto md:w-[158px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/v1673136485/companies/osc-new_bff4kw.png' alt="glentel logo" />
+      <img class="w-max h-auto md:w-[158px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136485/companies/osc-new_bff4kw.png' alt="glentel logo" />
     </div>
     <div class="text-xl text-left">July 2012 - Sept 2012 (Internship)</div>
     <p class="text-left font-light
