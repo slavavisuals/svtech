@@ -3,36 +3,13 @@ import {
   FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
 } from 'react-icons/fi';
 import { AiOutlineCloudServer } from 'react-icons/ai';
 import { BsTools } from 'react-icons/bs';
 import { RiFlowChart } from 'react-icons/ri';
-
-// companies icons
-
-// import FreelancerBrandIcon from '../public/assets/img/brands/freelancer.png';
-// import UpworkBrandIcon from '../public/assets/img/brands/upwork.png';
-// import FiverBrandIcon from '../public/assets/img/brands/fiverr.png';
-// import BehanceBrandIcon from '../public/assets/img/brands/behance.png';
-// import DribbbleBrandIcon from '../public/assets/img/brands/dribbble.png';
-
-import glentel from '../public/assets/img/companies/glentel-logo.png';
-import cg from '../public/assets/img/companies/cg.png';
-import costco from '../public/assets/img/companies/costco-wholesale.png';
-import wave from '../public/assets/img/companies/wave.png';
-import tbooth from '../public/assets/img/companies/tbooth.png';
-import wirelessetc from '../public/assets/img/companies/wireless-etc.png';
-import synergy from '../public/assets/img/companies/synergy.png';
-import intelex from '../public/assets/img/companies/intelex.png';
-import indexexchange from '../public/assets/img/companies/index-exchange.png';
-import osc from '../public/assets/img/companies/osc.png';
 
 // projects images
 import Project1 from '../public/assets/img/projects/p1.webp';
@@ -95,35 +72,7 @@ export const social = [
     icon: <FiGithub />,
     href: 'https://github.com/slavavisuals/',
   },
-  // {
-  //   icon: <FiDribbble />,
-  //   href: '',
-  // },
 ];
-
-// companies
-// export const brands = [
-//   {
-//     img: FreelancerBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: UpworkBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: FiverBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: BehanceBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: DribbbleBrandIcon,
-//     href: '',
-//   },
-// ];
 
 export const brands = [
   {
@@ -250,8 +199,20 @@ export const projectsNav = [
 // work experience
 export const experienceNav = [
   {
+    name: 'slava tech inc',
+    year: 'Feb 2023 - Current',
+  },
+  {
+    name: 'evans hunt',
+    year: 'Feb 2024 - Oct 2024',
+  },
+  {
+    name: 'wellington-altus',
+    year: 'Mar 2023 - Sep 2023',
+  },
+  {
     name: 'glentel',
-    year: '2020-current',
+    year: 'Dec 2020 - Mar 2023',
   },
   {
     name: 'canada goose',
@@ -277,15 +238,96 @@ export const experienceNav = [
 
 export const experienceData = [
   {
+    id: '0',
+    name: 'slava tech inc',
+    description: `
+    <div class="flex flex-col gap-y-2 text-sm md:text-xl">
+    <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
+     <div class="ml-3 w-max h-auto md:w-[204px] md:h-[50px] flex items-center justify-center"><h3 class="font-semibold text-black">Slava Tech Inc.</h3></div>
+    </div>
+    <div class="pl-4 text-xl text-left md:pl-6">Feb 2024 - Present</div>
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
+      <li class="list-none">
+        Operating as independent contractor I provide contracting services to clients in various industries,
+        specializing in front-end development, CMS integration, and scalable solutions.
+      </li>
+    </ul>
+    </div>`,
+  },
+  {
     id: '1',
+    name: 'evans hunt',
+    description: `
+    <div class="flex flex-col gap-y-2 text-sm md:text-xl">
+    <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
+      <img class="ml-3 w-max h-auto md:w-[204px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1732566044/experience/evans-hunt.png' alt="glentel logo" />
+    </div>
+    <div class="pl-4 text-xl text-left md:pl-6">Feb 2024 - Current</div>
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
+      <li class="list-square">
+        Led front-end development for a client project in the hotel and resort management industry,
+        catering to thousands of customers.
+      </li>
+      <li class="list-square">
+        Implemented and integrated a Headless CMS using Sanity IO and NextJS, enhancing content
+        delivery and management.
+      </li>
+      <li class="list-square">
+        Configured and maintained Azure Pipelines for continuous integration and deployment (CI/CD),
+        improving development workflows.
+      </li>
+      <li class="list-square">Developed Node.js backend scripts for automation and efficient data retrieval, increasing
+        operational efficiency.
+      </li>
+      <li class="list-square">Created and integrated external APIs for dynamic form management, improving data handling and
+        user interactions</li>
+      <li class="list-square">Conducted numerous UI enhancements and bug fixes, significantly improving application stability
+        and user satisfaction.</li>
+    </ul>
+    </div>`,
+  },
+  {
+    id: '2',
+    name: 'wellington-altus',
+    description: `
+    <div class="flex flex-col gap-y-2 text-sm md:text-xl">
+    <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
+      <img class="ml-3 w-max h-auto md:w-[204px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1732566044/experience/wellington-altus.png' alt="wellington-altus logo" />
+      
+    </div>
+    <div class="pl-4 text-xl text-left md:pl-6">May 2023 - Feb 2024</div>
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
+      <li class="list-square">
+        Led the development and maintenance of a React.js and Next.js application with a strong focus on
+        integrating Strapi CMS, enhancing content management workflows, and enabling smooth product
+        launches.
+      </li>
+      <li class="list-square">
+        Collaborated with cross-functional teams to build and optimize Next.js components, improving user
+        experience and efficiency in content delivery.
+      </li>
+      <li class="list-square">
+        Integrated Strapi CMS with AWS services to ensure scalable, secure, and reliable content
+        management and application performance.
+      </li>
+      <li class="list-square">Acted as the in-house expert on Strapi CMS, providing solutions for issues and continuously
+        improving the platform to meet stakeholder requirements and product vertical launches.</li>
+    </ul>
+    
+
+    
+    </div>`,
+  },
+  {
+    id: '3',
     name: 'glentel',
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
       <img class="ml-3 w-max h-auto md:w-[204px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673133665/companies/glentel-logo_rub3d2.png' alt="glentel logo" />
     </div>
-    <div class="pl-4 md:pl-6 text-xl text-left">December 2020 - Present</div>
-    <ul class="pl-4 md:pl-6 list-outside text-left font-light">
+    <div class="pl-4 text-xl text-left md:pl-6">Dec 2020 - May 2023</div>
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
       <li class="list-square">
         Lead developer responsible for maintaining Glentel's web properties (<span class="font-bold">Costco Mobility</span>, <span class="font-bold">Wireless Wave</span>, and <span class="font-bold">Tbooth Wireless)</span>
       </li>
@@ -305,15 +347,15 @@ export const experienceData = [
     </div>`,
   },
   {
-    id: '2',
+    id: '4',
     name: 'canada goose',
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
       <img class="w-max md:w-[292px] md:h-[50px]"src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673135744/companies/cg_ldj8po.png' alt="glentel logo" />
     </div>
-    <div class="pl-4 md:pl-6  text-xl text-left">April 2017 - November 2020</div>
-    <ul class="pl-4 md:pl-6 list-outside text-left font-light">
+    <div class="pl-4 text-xl text-left md:pl-6">April 2017 - November 2020</div>
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
       <li class="list-square">
         Designed and built scalable and secure user experiences for high-traffic websites with a global footprint across 13+ countries
       </li>
@@ -335,15 +377,15 @@ export const experienceData = [
     `,
   },
   {
-    id: '3',
+    id: '5',
     name: 'intelex',
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
     <div class="flex items-center justify-center bg-white py-3 mb-1 md:mb-3 rounded-lg w-full md:w-[320px]">
       <img class="w-max h-auto md:w-[273px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136355/companies/intelex_m6pjhi.png' alt="glentel logo" />
     </div>
-    <div class="pl-4 md:pl-6  text-xl text-left">April 2015 - February 2017</div>
-    <ul class="pl-4 md:pl-6 list-outside text-left font-light">
+    <div class="pl-4 text-xl text-left md:pl-6">April 2015 - February 2017</div>
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
       <li class="list-square">
         Developed highly scalable SAAS applications serving over 1.3 million users globally
       </li>
@@ -364,7 +406,7 @@ export const experienceData = [
     `,
   },
   {
-    id: '4',
+    id: '6',
     name: 'synergy networx',
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
@@ -372,9 +414,8 @@ export const experienceData = [
       <img class="w-max h-auto md:w-[273px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136485/companies/synergy_gvjsso.png' alt="glentel logo" />
     </div>
     <div class="text-xl text-left">March 2014 - March 2015</div>
-    <p class="text-left font-light
-    ">Responsible for end-to-end UI/UX development and implementation of a SAAS based Hedge Fund Investment Relations Platform and Hosting Company.</p> 
-    <ul class="pl-4 md:pl-6 list-outside text-left font-light">
+    <p class="font-light text-left">Responsible for end-to-end UI/UX development and implementation of a SAAS based Hedge Fund Investment Relations Platform and Hosting Company.</p> 
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
       <li class="list-square">
         Utilized HTML5/CSS3/XML with PHP
       </li>
@@ -390,7 +431,7 @@ export const experienceData = [
     `,
   },
   {
-    id: '5',
+    id: '7',
     name: 'index exchange',
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
@@ -398,9 +439,8 @@ export const experienceData = [
       <img class="w-max h-auto md:w-[112px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136636/companies/index-exchange_fnvtjn.png' alt="glentel logo" />
     </div>
     <div class="text-xl text-left">Jan 2013 - July 2013</div>
-    <p class="text-left font-light
-    ">As a contractor for multi-national advertising and technology automation company for real-time transact ad impressions I was responsible for front end programming and developing dynamic web applications.</p> 
-    <ul class="pl-4 md:pl-6 list-outside text-left font-light">
+    <p class="font-light text-left">As a contractor for multi-national advertising and technology automation company for real-time transact ad impressions I was responsible for front end programming and developing dynamic web applications.</p> 
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
       <li class="list-square">
         leveraged HTML5/CSS3, JavaScript, and JSON to develop dynamic and engaging web pages
       </li>
@@ -414,7 +454,7 @@ export const experienceData = [
     `,
   },
   {
-    id: '6',
+    id: '8',
     name: 'osc',
     description: `
     <div class="flex flex-col gap-y-2 text-sm md:text-xl">
@@ -422,9 +462,8 @@ export const experienceData = [
       <img class="w-max h-auto md:w-[158px] md:h-[50px]" src='https://res.cloudinary.com/slavavisuals/image/upload/q_auto:best/v1673136485/companies/osc-new_bff4kw.png' alt="glentel logo" />
     </div>
     <div class="text-xl text-left">July 2012 - Sept 2012 (Internship)</div>
-    <p class="text-left font-light
-    ">As an Intern I was tasked with updating the company's online presence</p> 
-    <ul class="pl-4 md:pl-6 list-outside text-left font-light">
+    <p class="font-light text-left">As an Intern I was tasked with updating the company's online presence</p> 
+    <ul class="pl-4 font-light list-outside text-left md:pl-6">
       <li class="list-square">
         Maintained and updated the company's website using HTML5 and the Open Text CMS platform
       </li>
